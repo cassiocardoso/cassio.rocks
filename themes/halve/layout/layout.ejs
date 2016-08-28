@@ -3,38 +3,15 @@
   <div class="row">
     <div class="half half--left">
       <div class="content">
-        <h1>Cassio Cardoso</h1>
-        <h2>Front-end Engineer</h2>
+        <h1 class="site-title">Cassio Cardoso</h1>
+        <h2 class="site-subtitle">Front-end Engineer</h2>
+        <%- partial('_partial/social-icons') %>
       </div> <!-- /.content -->
     </div> <!-- /.half -->
 
     <div class="half half--right">
       <div class="content">
-        <article class="">
-          <header>
-            <img
-              src="/images/posts/2015_cssconf.png"
-              alt="Como foi a Conferência CSS Brasil 2015"
-            />
-            <h1>
-              <a href="#">Como foi a Conferência CSS Brasil 2015</a>
-            </h1>
-          </header>
-          <section>
-            <p>No último sábado (09), aconteceu a primeira conferência totalmente focada em CSS
-              do Brasil. Eu estive presente no evento e gostaria de compartilhar como foi a
-              experiência para mim.
-            </p>
-            <p>
-              <a href="#">Ler mais...</a>
-            </p>
-          </section>
-          <footer>
-            <img src="/images/profile.jpg" alt="Cassio Cardoso" />
-            <a href="#">Cassio Cardoso</a>
-            <span>publicado em: 25/05/15</span>
-          </footer>
-        </article>
+        <%- partial('_partial/post-snippet') %>
       </div> <!-- /.content -->
     </div> <!-- /.half -->
   </div> <!-- /.row -->
