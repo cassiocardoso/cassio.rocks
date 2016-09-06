@@ -1,1 +1,16 @@
-<h1>index.ejs</h1>
+<div class="half half--left">
+  <div class="content">
+    <h1 class="site-title">Cassio Cardoso</h1>
+    <h2 class="site-subtitle">Front-end Engineer</h2>
+    <%- partial('_partial/social-icons') %>
+  </div> <!-- /.content -->
+</div> <!-- /.half -->
+
+<div class="half half--right">
+  <div class="content">
+    <%- partial('_partial/nav') %>
+    <% site.posts.each(function(post) { %>
+      <%- partial('_partial/post-snippet', {post: post, index: true}) %>
+    <% }) %>
+  </div> <!-- /.content -->
+</div> <!-- /.half -->
