@@ -6,23 +6,22 @@
       alt="Como foi a Conferência CSS Brasil 2015"
     />
     <h1 class="post-snippet__title">
-      <a href="#" class="post-snippet__link">Como foi a Conferência CSS Brasil 2015</a>
+      <a href="<%= url_for(post.path) %>" class="post-snippet__link"><%= post.title %></a>
     </h1> <!-- /.post-snippet__title -->
   </header> <!-- /.post-snippet__header -->
 
   <section class="post-snippet__body">
-    <p class="post-snippet__text">No último sábado (09), aconteceu a primeira conferência
-      totalmente focada em CSS do Brasil. Eu estive presente no evento e gostaria de compartilhar
-      como foi a experiência para mim.
+    <p class="post-snippet__text">
+      <%= post.snippet %>
     </p> <!-- /.post-snippet__text -->
     <p>
-      <a href="#" class="post-snippet__read-more">Ler mais...</a>
+      <a href="<%= url_for(post.path) %>" class="post-snippet__read-more">Ler mais...</a>
     </p>
   </section> <!-- /.post-snippet__body -->
 
   <footer class="post-snippet__footer">
     <img src="/images/profile.jpg" class="author__thumb" alt="Cassio Cardoso" />
     <a href="#" class="author__name">Cassio Cardoso</a>
-    <span>publicou em <date>25/05/15</date></span>
+    <span>publicou em <date><%= post.date.locale('pt').format("L") %></date></span>
   </footer> <!-- /.post-snippet__footer -->
 </article> <!-- /.post-snippet -->
