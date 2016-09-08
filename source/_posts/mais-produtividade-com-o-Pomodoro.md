@@ -1,6 +1,6 @@
 ---
 title: Mais produtividade com o Pomodoro
-banner:
+banner: /images/posts/2014_pomodoro.png
 date: 2014-10-09
 tags:
 categories:
