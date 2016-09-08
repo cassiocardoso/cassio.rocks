@@ -1,0 +1,46 @@
+<div class="half half--left">
+  <div class="content">
+    <h1 class="site-title">Contact me</h1>
+    <%- partial('_partial/social-icons') %>
+  </div> <!-- /.content -->
+</div> <!-- /.half -->
+
+<div class="half half--right">
+  <div class="content">
+    <%- partial('_partial/nav') %>
+    <p>Wanna discuss a new project? Invite me to play soccer or offer me a free beer? Just send
+      a message using the form below and we'll make it happen.</p>
+    <form class="" id="form--contact" method="post">
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Contact me:</legend>
+        <div class="form__group">
+          <label for="name" class="form__label">
+            Your name:
+            <input type="text" class="form__input" name="name" placeholder="Type your name here" required>
+          </label> <!-- /.form__label -->
+        </div> <!-- /.form__group -->
+        <div class="form__group">
+          <label for="email" class="form__label">
+            Your email:
+            <input type="email" class="form__input" name="email" placeholder="Type your email here" required>
+          </label> <!-- /.form__label -->
+        </div> <!-- /.form__group -->
+        <div class="form__group">
+          <label for="phone" class="form__label">
+            Your phone:
+            <input type="tel" class="form__input" name="phone" placeholder="Type your phone here">
+          </label> <!-- /.form__label -->
+        </div> <!-- /.form__group -->
+        <div class="form__group">
+          <label for="message" class="form__label">
+            Your message:
+            <textarea name="message" rows="8" cols="40"></textarea>
+          </label> <!-- /.form__label -->
+        </div> <!-- /.form__group -->
+        <div class="form__group">
+          <button type="submit"class="btn__primary" name="submit">Send message</button>
+        </div> <!-- /.form__group -->
+      </fieldset> <!-- /.form__fieldset -->
+    </form> <!-- /#form-contact -->
+  </div> <!-- /.content -->
+</div> <!-- /.half -->
