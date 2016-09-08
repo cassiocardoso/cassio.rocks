@@ -1,11 +1,12 @@
 ---
 title: Criando uma estrutura básica de um projeto LESS
-banner:
+banner: /images/posts/2015_cssconf.png
 date: 2014-09-04
 tags:
 categories:
 snippet: Uma das diversas vantagens de se utilizar um pré-processador de CSS é a possibilidade de se dividir o código em diversos arquivos durante o tempo de desenvolvimento, sem que isso afete a performance após sua compilação.
 language: pt
+layout: post
 permalink: estrutura-basica-de-um-projeto-less
 ---
 
@@ -112,4 +113,4 @@ Eu gosto de deixar apenas um arquivo no diretório raíz, ele que é responsáve
 
 Eu tenho uma task configurada no Grunt para compilar um novo arquivo CSS sempre que um arquivo do diretório do LESS, ou de algum de seus sub-diretórios for modificado.
 
-A base é essa, agora cabe a cada um adequar da melhor forma dentro do projeto, mantendo sempre uma coerência e buscando otimizar sua organização. 
+A base é essa, agora cabe a cada um adequar da melhor forma dentro do projeto, mantendo sempre uma coerência e buscando otimizar sua organização.

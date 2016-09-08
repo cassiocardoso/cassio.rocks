@@ -6,6 +6,7 @@ tags:
 categories:
 snippet: Como uma técnica simples de gerenciamento de tempo e foco pode ajudar a aumentar nossa produtividade diária.
 language: pt
+layout: post
 permalink: mais-produtividade-com-pomodoro
 ---
 
