@@ -1,9 +1,9 @@
 <article class="post-snippet">
   <header class="post-snippet__header">
     <img
-      src="/images/posts/2015_cssconf.png"
+      src="<%= post.banner %>"
       class="img-responsive"
-      alt="Como foi a Conferência CSS Brasil 2015"
+      alt="<%= post.title %>"
     />
     <h1 class="post-snippet__title">
       <a href="<%= url_for(post.path) %>" class="post-snippet__link"><%= post.title %></a>
