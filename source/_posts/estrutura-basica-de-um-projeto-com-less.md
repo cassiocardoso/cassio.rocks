@@ -1,6 +1,6 @@
 ---
 title: Criando uma estrutura básica de um projeto LESS
-banner: /images/posts/2015_cssconf.png
+banner: /images/posts/2014_less.png
 date: 2014-09-04
 tags:
 categories:
