@@ -10,9 +10,9 @@
     <%- partial('_partial/nav') %>
     <p>Wanna discuss a new project? Invite me to play soccer or offer me a free beer? Just send
       a message using the form below and we'll make it happen.</p>
-    <form class="" id="form--contact" method="post">
+    <form class="form--contact" id="form-contact" action="https://formspree.io/cassiocardoso@icloud.com" method="post">
       <fieldset class="form__fieldset">
-        <legend class="form__legend">Contact me:</legend>
+        <legend class="form__legend">Contact me</legend>
         <div class="form__group">
           <label for="name" class="form__label">
             Your name:
@@ -32,13 +32,22 @@
           </label> <!-- /.form__label -->
         </div> <!-- /.form__group -->
         <div class="form__group">
+          <label for="subject" class="form__label">
+            Message subject:
+            <input type="tel" class="form__input" name="_subject" placeholder="Type your subject here">
+          </label> <!-- /.form__label -->
+        </div> <!-- /.form__group -->
+        <div class="form__group">
           <label for="message" class="form__label">
             Your message:
-            <textarea name="message" rows="8" cols="40"></textarea>
+            <textarea class="form__input" name="message" rows="8" cols="40"></textarea>
           </label> <!-- /.form__label -->
         </div> <!-- /.form__group -->
         <div class="form__group">
           <button type="submit"class="btn__primary" name="submit">Send message</button>
+          <input type="hidden" name="_next" value="/thanks" />
+          <input type="hidden" name="_cc" value="caugusto.cardoso@gmail.com" />
+          <input type="text" name="_gotcha" style="display:none" />
         </div> <!-- /.form__group -->
       </fieldset> <!-- /.form__fieldset -->
     </form> <!-- /#form-contact -->
