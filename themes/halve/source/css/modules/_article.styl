@@ -2,19 +2,40 @@
  * Article
 \* ============================== */
 
-.article__h2
+/*
+ * The custom headers(article__h*) are used in static pages as about, contact, projects, etc
+ * The nested headers are used in blog posts (markdown texts)
+ *
+ * ============================== */
+
+.article__h2,
+.article h2
   border-bottom 2px solid #6272a4
   display inline
   font-size 1.75rem
   margin 0
   padding 0
+
   &:hover
     color #6272a4
 
-.article__h3
+.article__h3,
+.article h3
   border-bottom 2px solid #6272a4
   color #6272a4
   display inline
   font-size 1.25rem
   margin 0
   padding 0
+
+.article a
+  border-bottom 1px solid color-primary
+  color color-primary
+  margin .1rem
+  padding .1rem .2rem
+  text-decoration none
+  transition all .3s linear
+
+  &:hover
+    background-color color-primary
+    color #fff
