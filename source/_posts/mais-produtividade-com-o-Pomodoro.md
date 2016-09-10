@@ -2,12 +2,11 @@
 title: Mais produtividade com o Pomodoro
 banner: /images/posts/2014_pomodoro.png
 date: 2014-10-09
-tags:
-categories:
+tags: worklow, devtips, pomodoro, time management
+categories: Workflow
 snippet: Como uma técnica simples de gerenciamento de tempo e foco pode ajudar a aumentar nossa produtividade diária.
 language: pt
 layout: post
-permalink: mais-produtividade-com-pomodoro
 ---
 
 Aproximadamente 1 mês atrás eu comecei a usar o Pomodoro para gerenciar meu tempo durante o horário de trabalho e, desde então tenho notado minha produtividade aumentar, e a concentração durante as tarefas também.

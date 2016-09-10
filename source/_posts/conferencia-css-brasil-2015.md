@@ -7,7 +7,6 @@ categories: Events
 snippet: No último sábado (09), aconteceu a primeira conferência totalmente focada em CSS do Brasil. Eu estive presente no evento e gostaria de compartilhar como foi a experiência para mim.
 language: pt
 layout: post
-permalink: conferencia-css-brasil-2015
 ---
 
 No último sábado (09), aconteceu a primeira conferência totalmente focada em CSS do Brasil. Eu estive presente no evento e gostaria de compartilhar como foi a experiência para mim. Quais os pontos positivos e negativos do evento.

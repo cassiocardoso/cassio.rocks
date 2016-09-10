@@ -7,7 +7,6 @@ categories:
 snippet: Uma das diversas vantagens de se utilizar um pré-processador de CSS é a possibilidade de se dividir o código em diversos arquivos durante o tempo de desenvolvimento, sem que isso afete a performance após sua compilação.
 language: pt
 layout: post
-permalink: estrutura-basica-de-um-projeto-less
 ---
 
 Uma das diversas vantagens de se utilizar um pré-processador de CSS é a possibilidade de se dividir o código em diversos arquivos durante o tempo de desenvolvimento, sem que isso afete a performance após sua compilação.
