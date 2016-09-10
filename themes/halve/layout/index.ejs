@@ -12,6 +12,7 @@
 <div class="half half--right">
   <div class="content">
     <%- partial('_partial/nav') %>
+    <h2>Recent posts:</h2>
     <% site.posts.each(function(post) { %>
       <%- partial('_partial/post-snippet', {post: post, index: true}) %>
     <% }) %>
