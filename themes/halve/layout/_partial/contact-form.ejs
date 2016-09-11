@@ -1,0 +1,41 @@
+<form class="form--contact" id="form-contact" action="https://formspree.io/cassiocardoso@icloud.com" method="post">
+  <fieldset class="form__fieldset">
+    <legend class="form__legend">Contact me</legend>
+    <div class="form__group">
+      <label for="name" class="form__label">
+        Your name:
+        <input type="text" class="form__input" name="name" placeholder="Type your name here" required>
+      </label> <!-- /.form__label -->
+    </div> <!-- /.form__group -->
+    <div class="form__group">
+      <label for="email" class="form__label">
+        Your email:
+        <input type="email" class="form__input" name="email" placeholder="Type your email here" required>
+      </label> <!-- /.form__label -->
+    </div> <!-- /.form__group -->
+    <div class="form__group">
+      <label for="phone" class="form__label">
+        Your phone:
+        <input type="tel" class="form__input" name="phone" placeholder="Type your phone here">
+      </label> <!-- /.form__label -->
+    </div> <!-- /.form__group -->
+    <div class="form__group">
+      <label for="subject" class="form__label">
+        Message subject:
+        <input type="tel" class="form__input" name="_subject" placeholder="Type your subject here">
+      </label> <!-- /.form__label -->
+    </div> <!-- /.form__group -->
+    <div class="form__group">
+      <label for="message" class="form__label">
+        Your message:
+        <textarea class="form__input" name="message" rows="8" cols="40"></textarea>
+      </label> <!-- /.form__label -->
+    </div> <!-- /.form__group -->
+    <div class="form__group">
+      <button type="submit"class="btn__primary" name="submit">Send message</button>
+      <input type="hidden" name="_next" value="/thanks" />
+      <input type="hidden" name="_cc" value="caugusto.cardoso@gmail.com" />
+      <input type="text" name="_gotcha" style="display:none" />
+    </div> <!-- /.form__group -->
+  </fieldset> <!-- /.form__fieldset -->
+</form> <!-- /#form-contact -->
