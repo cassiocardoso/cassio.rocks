@@ -1,10 +1,9 @@
 <article class="post-snippet">
   <header class="post-snippet__header">
-    <img
-      src="<%= post.banner %>"
-      class="img-responsive"
-      alt="<%= post.title %>"
-    />
+    <a href="<%= url_for(post.path) %>">
+      <img src="<%= post.banner %>" class="img-responsive" alt="<%= post.title %>" />
+    </a>
+
     <h1 class="post-snippet__title">
       <a href="<%= url_for(post.path) %>" class="post-snippet__link"><%= post.title %></a>
     </h1> <!-- /.post-snippet__title -->
