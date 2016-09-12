@@ -1,7 +1,7 @@
 ---
 title: Meetup CSS na AMARO
 banner: /images/posts/2016_meetupcss.png
-date: 2015-07-22
+date: 2016-07-22
 tags: events, css, meetup, amaro
 categories: Events
 snippet: No último dia 21 de julho rolou a 18ª edição do Meetup CSS e tivemos o prazer de realizar essa edição na AMARO.
