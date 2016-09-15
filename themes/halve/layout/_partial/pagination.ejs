@@ -1,0 +1,14 @@
+<div class="pagination">
+  <nav class="pagination__nav">
+    <% if (page.prev) { %>
+      <a class="pagination__btn pagination__btn--prev" href="<%- url_for(page.prev_link) %>">
+        Mais recentes
+      </a>
+    <% } %>
+    <% if (page.next) { %>
+      <a class="pagination__btn pagination__btn--next" href="<%- url_for(page.next_link) %>">
+        Mais antigos
+      </a>
+    <% } %>
+  </nav>
+</div>

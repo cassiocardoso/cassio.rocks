@@ -15,6 +15,7 @@
     <h2>Recent posts:</h2>
     <% page.posts.each(function(post) { %>
       <%- partial('_partial/post-snippet', {post: post, index: true}) %>
+      <%- partial('_partial/pagination', {type: 'page'}) %>
     <% }) %>
     <%- partial('_partial/footer') %>
   </div> <!-- /.content -->
