@@ -1,6 +1,7 @@
 ---
 title: Thank you!
 date: 2016-09-07 09:30:41
+background: /images/laptop_bg275.jpg
 layout: page
 ---
 

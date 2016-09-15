@@ -1,6 +1,7 @@
 ---
 title: About me
 date: 2016-09-07 09:30:41
+background: /images/pages/profile-large.jpg
 layout: page
 ---
 
