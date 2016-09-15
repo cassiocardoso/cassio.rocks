@@ -1,6 +1,6 @@
 ---
 title: Primeiros passos com o MongoDB
-banner: /images/posts/2013_mongodb.png
+banner: /images/posts/banner/2013_mongodb.png
 date: 2013-12-17
 tags: tutorial, banco de dados, MongoDB
 categories: Tutorial

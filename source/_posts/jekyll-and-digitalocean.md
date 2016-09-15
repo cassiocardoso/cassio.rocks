@@ -1,6 +1,6 @@
 ---
 title: Jekyll and DigitalOcean, That's how I roll
-banner: /images/posts/2015_jekyll_do.png
+banner: /images/posts/banner/2015_jekyll_do.png
 date: 2015-09-01
 tags: jekyll, workflow, static site generator, setup
 categories: Worklow

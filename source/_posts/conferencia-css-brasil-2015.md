@@ -1,6 +1,6 @@
 ---
 title: Como foi a Conferência CSS Brasil 2015
-banner: /images/posts/2015_cssconf.png
+banner: /images/posts/banner/2015_cssconf.png
 date: 2015-05-25
 tags: events, css
 categories: Events

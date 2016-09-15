@@ -1,6 +1,6 @@
 ---
 title: How to setup a Ubuntu machine on DigitalOcean
-banner: /images/posts/2016_ubuntu.png
+banner: /images/posts/banner/2016_ubuntu.png
 date: 2015-06-25
 tags: devtips, devops, configuration, digitalocean, ubuntu
 categories: Configuration

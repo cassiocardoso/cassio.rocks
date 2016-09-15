@@ -1,6 +1,6 @@
 ---
 title: Mais produtividade com o Pomodoro
-banner: /images/posts/2014_pomodoro.png
+banner: /images/posts/banner/2014_pomodoro.png
 date: 2014-10-09
 tags: worklow, devtips, pomodoro, time management
 categories: Workflow

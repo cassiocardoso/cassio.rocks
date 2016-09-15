@@ -1,6 +1,7 @@
 ---
 title: Meetup CSS na AMARO
-banner: /images/posts/2016_meetupcss.png
+banner: /images/posts/banner/2016_meetupcss.png
+background: /images/posts/background/2016_meetupcss.png
 date: 2016-07-22
 tags: events, css, meetup, amaro
 categories: Events
