@@ -12,7 +12,13 @@
 <div class="half half--right">
   <div class="content">
     <%- partial('_partial/nav') %>
-    <h2>Recent posts:</h2>
+
+    <% if (page.current === 1) { %>
+      <h2>Recent posts:</h2>
+    <% } else { %>
+      <h2>Blog page <%= page.current %>:</h2>
+    <% } %>
+
     <% page.posts.each(function(post) { %>
       <%- partial('_partial/post-snippet', {post: post, index: true}) %>
     <% }) %>
