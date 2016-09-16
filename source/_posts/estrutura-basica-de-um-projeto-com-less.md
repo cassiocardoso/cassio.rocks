@@ -1,9 +1,10 @@
 ---
 title: Criando uma estrutura básica de um projeto LESS
 banner: /images/posts/banner/2014_less.png
+background: /images/posts/background/2014_arquitetura.png
 date: 2014-09-04
-tags:
-categories:
+tags: css, architecture, devtips
+categories: Architecture
 snippet: Uma das diversas vantagens de se utilizar um pré-processador de CSS é a possibilidade de se dividir o código em diversos arquivos durante o tempo de desenvolvimento, sem que isso afete a performance após sua compilação.
 language: pt
 layout: post

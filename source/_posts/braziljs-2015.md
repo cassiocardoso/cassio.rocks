@@ -1,6 +1,7 @@
 ---
 title: BrazilJS 2015
 banner: /images/posts/banner/2015_braziljs.png
+background: /images/posts/background/2015_braziljs.png
 date: 2015-08-24
 tags: events, css
 categories: Events
