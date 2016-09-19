@@ -5,13 +5,13 @@
     </a>-->
     <h1 class="site-title">Cassio Cardoso</h1>
     <h2 class="site-subtitle">Front-end Engineer</h2>
-    <%- partial('_partial/social-icons') %>
+    <%- partial('_partial/social-icons', {}, {cache: true}) %>
   </div> <!-- /.content -->
 </div> <!-- /.half -->
 
 <div class="half half--right">
   <div class="content">
-    <%- partial('_partial/nav') %>
+    <%- partial('_partial/nav', {}, {cache: true}) %>
 
     <% if (page.current === 1) { %>
       <h2>Recent posts:</h2>
@@ -23,6 +23,6 @@
       <%- partial('_partial/post-snippet', {post: post, index: true}) %>
     <% }) %>
     <%- partial('_partial/pagination', {type: 'page'}) %>
-    <%- partial('_partial/footer') %>
+    <%- partial('_partial/footer', {}, {cache: true}) %>
   </div> <!-- /.content -->
 </div> <!-- /.half -->

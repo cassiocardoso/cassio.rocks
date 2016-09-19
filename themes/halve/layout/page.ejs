@@ -4,19 +4,19 @@
     url('<%= page.background %>') no-repeat center;">
   <div class="content">
     <h1 class="site-title"><%= page.title %></h1>
-    <%- partial('_partial/social-icons') %>
+    <%- partial('_partial/social-icons', {}, {cache: true}) %>
   </div> <!-- /.content -->
 </div> <!-- /.half -->
 
 <div class="half half--right">
   <div class="content">
-    <%- partial('_partial/nav') %>
+    <%- partial('_partial/nav', {}, {cache: true}) %>
     <article class="article">
       <%- page.content %>
     </article>
     <% if(page.title === 'Contact me') { %>
         <%- partial('_partial/contact-form') %>
     <% } %>
-    <%- partial('_partial/footer') %>
+    <%- partial('_partial/footer', {}, {cache: true}) %>
   </div> <!-- /.content -->
 </div> <!-- /.half -->

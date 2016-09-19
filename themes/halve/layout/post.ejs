@@ -3,22 +3,26 @@
     rgba(44,45,51, .9)),
     url('<%= page.background %>') no-repeat center;">
   <div class="content">
+    <section class="article__meta">
+      <date><%= page.date.locale('pt').format("L") %></date>
+    </section>
     <h1 class="site-title">
       <a href="#">
         <%= page.title %>
       </a>
     </h1>
+    <%- partial('_partial/sharer', {}, {cache: true}) %>
   </div> <!-- /.content -->
 </div> <!-- /.half -->
 
 <div class="half half--right">
   <div class="content">
-    <%- partial('_partial/nav') %>
+    <%- partial('_partial/nav', {}, {cache: true}) %>
     <img src="<%= page.banner %>" class="img-responsive" alt="<%= page.title %>" />
     <article class="article">
       <%- page.content %>
     </article>
     <%- partial('_partial/disqus') %>
-    <%- partial('_partial/footer') %>
+    <%- partial('_partial/footer', {}, {cache: true}) %>
   </div> <!-- /.content -->
 </div> <!-- /.half -->

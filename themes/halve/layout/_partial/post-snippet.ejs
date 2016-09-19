@@ -14,13 +14,13 @@
       <%= post.snippet %>
     </p> <!-- /.post-snippet__text -->
     <p>
-      <a href="<%= url_for(post.path) %>" class="post-snippet__read-more">Ler mais...</a>
+      <a href="<%= url_for(post.path) %>" class="post-snippet__read-more">Read more...</a>
     </p>
   </section> <!-- /.post-snippet__body -->
 
   <footer class="post-snippet__footer">
     <img src="/images/profile.jpg" class="author__thumb" alt="Cassio Cardoso" />
     <a href="/about/" class="author__name">Cassio Cardoso</a>
-    <span>publicou em <date><%= post.date.locale('pt').format("L") %></date></span>
+    <span>posted at <date><%= post.date.locale('pt').format("L") %></date></span>
   </footer> <!-- /.post-snippet__footer -->
 </article> <!-- /.post-snippet -->
