@@ -53,13 +53,13 @@ This was my graduation project at college. We used Microsoft Kinect to build an 
 
 At home I have a Macbook Pro late 2011 with no changes (i5, 4GB RAM, 500GB HD). Recently I upgraded the OS to the last version: "El Capitan" and it's running smoothly, which impressed me.
 
-For terminal I really like [Iterm 2](https://www.iterm2.com/) running [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). I tried HyperTerm for a while but it seems a bit buggy for now, I intend to give it another try in the future.
+For terminal I really like [Hyper](https://www.hyper.is/) running [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). I used Iterm2 for a long time on my Macbook and it was very good but recently I switched to Hyper and it's working fine.
 
-My text editor of choice is [Atom](https://atom.io/), by far nowadays. After years using Sublime Text 2, I changed to Atom during 2014 and never looked back. I use several plugins, but one of the best is [sync-settings](https://github.com/atom-community/sync-settings) which auto-save my settings in a Gist so it makes very easy to configure Atom in a new computer.
+My text editor of choice is [Atom](https://atom.io/), by far nowadays. After years using Sublime Text 2, I changed to Atom during 2014 and never looked back. I use several plugins, but one of the best is [sync-settings](https://github.com/atom-community/sync-settings) which auto-save my settings in a Gist so it makes very easy to configure Atom in a new computer. On some projects I've been using [JetBrains' PhpStorm](https://www.jetbrains.com/phpstorm), it's very good and full of nice features.
 
 [Spotify](https://www.spotify.com/) is also a must.
 
-At work I run Ubuntu 15.10. And that's the only difference because I try to use the same softwares.
+At work I run Ubuntu 16.04. And that's the only difference because I try to use the same softwares.
 
 ## Hobbies
 
@@ -69,4 +69,4 @@ I also like to watch some TV series, most of them through Netflix. My recent fav
 
 Besides the sci-fi stuff I like to watch cooking shows as Chef's Table, Man vs Food, Mind of a Chef, and tons of YouTube channels about cooking. I also like to do some cool-hunting and go out with my wife to check new places in São Paulo.
 
-I like to practice sports. I played flag-football for 6 years with my friends, but had to quit it recently. Every week I play soccer with some friends from work. Now I'm starting to do Crossfit, which is something I wanted to do for a long time.
+I like to practice sports. I played flag-football for 6 years with my friends, but had to quit it recently. Every week I play soccer with some friends from work. Next thing I wanna try is to do Crossfit training.
