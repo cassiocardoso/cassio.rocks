@@ -68,4 +68,6 @@ theme: halve
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/cassiocardoso/cassio.rocks
+  branch: master
