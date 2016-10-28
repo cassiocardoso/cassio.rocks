@@ -2,6 +2,7 @@
  * Col
 \* ============================== */
 
+
 // Half column layout
 .half--left,
 .half--right
@@ -9,12 +10,16 @@
   height auto
 
 .half--left
-  width 50%
   background linear-gradient(rgba(44,45,51, .25), rgba(44,45,51, .75)), url("/images/laptop_bg275.jpg") no-repeat
   background-size cover
   display flex
   flex-direction column
   justify-content center
+  width 100%
+
+  @media screen and (min-width: 1024px) {
+    width 50%
+  }
 
 .half--right
   flex 1

@@ -3,8 +3,13 @@
 \* ============================== */
 
 .row
-  display flex
-  overflow hidden
-  height 100vh
-  backface-visibility hidden
-  will-change overflow
+  display block
+  height auto
+
+  @media screen and (min-width: 1024px) {
+    backface-visibility hidden
+    display flex
+    height 100vh
+    overflow hidden
+    will-change overflow
+  }
